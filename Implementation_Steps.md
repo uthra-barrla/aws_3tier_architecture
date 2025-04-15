@@ -4,7 +4,7 @@
 # Setup Instructions
 ```
 
-![Three-Tier Architecture](https://avinash.s3.amazonaws.com/awsdoc.png)
+![Three-Tier Architecture]()
 
 
 **make sure you use your S3 bucket to store code and copy to webservers**
