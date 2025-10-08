@@ -4,7 +4,7 @@
 # Setup Instructions
 ```
 
-![Three-Tier Architecture](https://avinash.s3.amazonaws.com/awsdoc.png)
+![Three-Tier Architecture](https://uthrapathy-m.s3.amazonaws.com/awsdoc.png)
 
 
 **make sure you use your S3 bucket to store code and copy to webservers**
@@ -75,7 +75,7 @@ Download application code from S3 and start the application:
 
 ```bash
 cd ~/
-aws s3 cp s3://3tierproject-avinash/application-code/app-tier/ app-tier --recursive
+aws s3 cp s3://3tierproject-uthrapathy-m/application-code/app-tier/ app-tier --recursive
 
 cd ~/app-tier
 npm install
@@ -116,7 +116,7 @@ nvm install 16
 nvm use 16
 
 cd ~/
-aws s3 cp s3://3tierproject-avinash/application-code/web-tier/ web-tier --recursive
+aws s3 cp s3://3tierproject-uthrapathy-m/application-code/web-tier/ web-tier --recursive
 
 cd ~/web-tier
 npm install
@@ -132,7 +132,7 @@ cd /etc/nginx
 ls
 
 sudo rm nginx.conf
-sudo aws s3 cp s3://3tierproject-avinash/application-code/nginx.conf .
+sudo aws s3 cp s3://3tierproject-uthrapathy-m/application-code/nginx.conf .
 
 sudo service nginx restart
 
